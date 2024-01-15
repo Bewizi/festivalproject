@@ -1,0 +1,29 @@
+@media (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+  .nav-list {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    font-size: 1.5rem;
+    z-index: -1000;
+  }
+  .nav-list,
+  .list-items:last-child {
+    margin-bottom: 5rem;
+  }
+  .icon {
+    display: block;
+  }
+  .hero-section,
+  .about-section {
+    padding: 0 10%;
+  }
+  .hero-paragraph {
+    margin-bottom: 5rem;
+  }
+}
