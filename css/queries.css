@@ -5,12 +5,13 @@
   .nav-list {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
-    top: 100%;
+    top: 10%;
     left: 0;
     font-size: 1.5rem;
     z-index: -1000;
+    gap: 3rem;
   }
   .nav-list,
   .list-items:last-child {

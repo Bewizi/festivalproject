@@ -1,3 +1,7 @@
+document.addEventListener("scroll", function () {
+  const header = document.querySelector("header");
+  header.classList.toggle("transparent", window.scrollY > 0);
+});
 // icon click for mobile
 document.addEventListener("DOMContentLoaded", function () {
   const menuIcon = document.querySelector(".menu");
