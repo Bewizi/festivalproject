@@ -1,8 +1,4 @@
 @media (max-width: 500px) {
-  .header {
-    margin-top: -0.5rem;
-  }
-
   .nav {
     display: none;
   }
