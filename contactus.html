@@ -42,21 +42,34 @@
     </header>
     <!-- main -->
     <main class="main">
-      <form action="" class="form">
-        <label for="fullname">FullName:</label>
-        <input
-          type="text"
-          name="fullname"
-          id="fullname"
-          placeholder="Enter FullName"
-        />
+      <form id="form" class="form">
+        <div>
+          <label for="fullname">FullName:</label>
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Enter FullName"
+          />
+          <div class="error"></div>
+        </div>
 
-        <label for="email">Email Address:</label>
-        <input type="email" name="email" id="email" placeholder="Enter Email" />
-
-        <label for="message">Message</label>
-        <textarea name="text" id="text" cols="50" rows="10"></textarea>
-        <button type="submit" class="form-btn">Submit</button>
+        <div>
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email"
+          />
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="text" id="text" cols="50" rows="10"></textarea>
+          <div class="error"></div>
+        </div>
+        <button id="btn" type="submit" class="form-btn">Submit</button>
       </form>
     </main>
 

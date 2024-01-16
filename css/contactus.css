@@ -25,3 +25,10 @@ input[type="email"] {
   padding: 0.5rem 2rem;
   font-size: 1.2rem;
 }
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
